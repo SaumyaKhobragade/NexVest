@@ -9,7 +9,7 @@ function Navbar() {
                     <a class="navbar-brand" href="#">
                         <img
                             src="assets/logo.svg"
-                            style={{ width: "25%" }}
+                            style={{ width: "25%", overflow: "hidden", scale: "1.75" }}
                             alt="Logo"
                         />
                     </a>
