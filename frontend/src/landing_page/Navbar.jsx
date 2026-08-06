@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Navbar() {
     return (
         <>
@@ -6,40 +8,40 @@ function Navbar() {
                 style={{ backgroundColor: "#FFF" }}
             >
                 <div class="container p-2">
-                    <a class="navbar-brand" href="#">
+                    <Link class="navbar-brand" to="/">
                         <img
                             src="assets/logo.svg"
                             style={{ width: "25%", overflow: "hidden", scale: "1.75" }}
                             alt="Logo"
                         />
-                    </a>
+                    </Link>
 
                     <form class="d-flex flex-row-reverse" role="search">
                         <ul class="navbar-nav mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">
+                                <Link class="nav-link active" aria-current="page" to="/signup">
                                     Signup
-                                </a>
+                                </Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">
+                                <Link class="nav-link active" to="/about">
                                     About
-                                </a>
+                                </Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">
+                                <Link class="nav-link active" to="/product">
                                     Product
-                                </a>
+                                </Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">
+                                <Link class="nav-link active" to="/pricing">
                                     Pricing
-                                </a>
+                                </Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">
+                                <Link class="nav-link active" to="/support">
                                     Support
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </form>
