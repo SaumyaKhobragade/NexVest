@@ -5,11 +5,11 @@ function Navbar() {
     return (
         <>
             <nav
-                class="navbar navbar-expand-lg border-bottom"
+                className="navbar navbar-expand-lg border-bottom"
                 style={{ backgroundColor: "#FFF" }}
             >
-                <div class="container p-2">
-                    <Link class="navbar-brand" to="/">
+                <div className="container p-2">
+                    <Link className="navbar-brand" to="/">
                         <img
                             src={logo}
                             style={{ width: "25%", overflow: "hidden", scale: "1.75" }}
@@ -17,30 +17,30 @@ function Navbar() {
                         />
                     </Link>
 
-                    <form class="d-flex flex-row-reverse" role="search">
-                        <ul class="navbar-nav mb-lg-0">
-                            <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" to="/signup">
+                    <form className="d-flex flex-row-reverse" role="search">
+                        <ul className="navbar-nav mb-lg-0">
+                            <li className="nav-item">
+                                <Link className="nav-link active" aria-current="page" to="/signup">
                                     Signup
                                 </Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="/about">
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="/about">
                                     About
                                 </Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="/product">
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="/product">
                                     Product
                                 </Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="/pricing">
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="/pricing">
                                     Pricing
                                 </Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="/support">
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="/support">
                                     Support
                                 </Link>
                             </li>
