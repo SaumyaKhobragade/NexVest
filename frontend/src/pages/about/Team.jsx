@@ -1,3 +1,5 @@
+import saumyaKhobragade from '../../assets/images/SaumyaKhobragade.png';
+
 function Team() {
     return (
         <>
@@ -12,7 +14,8 @@ function Team() {
                 >
                     <div className="col-6 p-3 text-center">
                         <img
-                            src="assets/SaumyaKhobragade.png"
+                            src={saumyaKhobragade}
+                            alt="Saumya Khobragade"
                             style={{ borderRadius: "100%", width: "50%" }}
                         />
                         <h4 className="mt-5">Saumya Khobragade</h4>

@@ -1,3 +1,5 @@
+import logo from '../../assets/logos/logo.svg';
+
 function Footer() {
     return (
         <>
@@ -5,7 +7,7 @@ function Footer() {
                 <div className="container border-top mt-5">
                     <div className="row mt-5">
                         <div className="col">
-                            <img src="assets/logo.svg" style={{ width: "75%" }} />
+                            <img src={logo} style={{ width: "75%" }} alt="Logo" />
                             <p>
                                 &copy; 2010 - 2024, Not NexVest Broking Ltd. All rights reserved.
                             </p>

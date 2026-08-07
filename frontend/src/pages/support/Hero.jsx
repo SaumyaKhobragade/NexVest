@@ -10,7 +10,7 @@ function Hero() {
     return (
         <>
             <section className="container-fluid" id="supportHero" style={{ backgroundColor: "rgb(56, 126, 209)", color: "white" }}>
-                <div className="p-5 " id="supportWrapper" style={{ display: "flex", justifyContent: "space-around", margin: "0 150px" }}>
+                <div className="p-5 " id="supportWrapper" style={{ display: "flex", justifyContent: "space-around", gap: "18rem" }}>
                     <h4>Support Portal</h4>
                     <a href="" style={{ color: "white" }}>
                         Track Tickets

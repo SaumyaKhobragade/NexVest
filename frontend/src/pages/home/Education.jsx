@@ -1,10 +1,12 @@
+import education from '../../assets/images/education.svg';
+
 function Education() {
     return ( 
         <>
             <div className="container mt-5">
                 <div className="row">
                     <div className="col">
-                        <img src="assets/education.svg" alt="Education" style={{width: "70%"}} />
+                        <img src={education} alt="Education" style={{width: "70%"}} />
                     </div>
                     <div className="col">
                         <h1 className="mb-3 fs-2">Free and Open Market Education</h1>

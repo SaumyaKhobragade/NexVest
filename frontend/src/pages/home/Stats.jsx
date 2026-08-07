@@ -1,3 +1,5 @@
+import ecosystem from '../../assets/images/ecosystem.png';
+
 function Stats() {
     return ( 
         <>
@@ -15,7 +17,7 @@ function Stats() {
                         <p className="text-muted">With our tools and resources, you can make smarter financial decisions and achieve your goals.</p>
                     </div>
                     <div className="col-6 p-5">
-                        <img src="/assets/ecosystem.png" alt="Stats" className="img-fluid" style={{ width: "90%" }} />
+                        <img src={ecosystem} alt="Stats" className="img-fluid" style={{ width: "90%" }} />
                         <div className="text-center mt-3">
                             <a href="" className="mx-5" style={{ textDecoration: "none" }}>Explore Our Ecosystem<i className="fas fa-arrow-right ml-2"></i></a>
                             <a href="" style={{ textDecoration: "none" }}>Learn More <i className="fas fa-arrow-right ml-2"></i></a>

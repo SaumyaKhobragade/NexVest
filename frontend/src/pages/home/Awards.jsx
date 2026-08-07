@@ -1,9 +1,12 @@
+import largestBroker from '../../assets/images/largestBroker.svg';
+import pressLogos from '../../assets/logos/pressLogos.png';
+
 function Awards() {
     return ( 
         <div className="container mt-5">
             <div className="row">
                 <div className="col-6 p-5">
-                    <img src="/assets/largestBroker.svg" alt="Awards" className="img-fluid" />
+                    <img src={largestBroker} alt="Awards" className="img-fluid" />
                 </div>
                 <div className="col-6 p-5 mt-3">
                     <h1>Largest Broker in the Country</h1>
@@ -24,7 +27,7 @@ function Awards() {
                             </ul>
                         </div>
                     </div>
-                    <img src="/assets/pressLogos.png" alt="Awards" style={{ width: "90%" }} />
+                    <img src={pressLogos} alt="Awards" style={{ width: "90%" }} />
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logos/logo.svg';
 
 function Navbar() {
     return (
@@ -10,7 +11,7 @@ function Navbar() {
                 <div class="container p-2">
                     <Link class="navbar-brand" to="/">
                         <img
-                            src="assets/logo.svg"
+                            src={logo}
                             style={{ width: "25%", overflow: "hidden", scale: "1.75" }}
                             alt="Logo"
                         />

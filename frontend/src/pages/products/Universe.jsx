@@ -1,3 +1,10 @@
+import smallcaseLogo from '../../assets/logos/smallcaseLogo.png';
+import streakLogo from '../../assets/logos/streakLogo.png';
+import sensibullLogo from '../../assets/logos/sensibullLogo.svg';
+import zerodhaFundhouse from '../../assets/logos/zerodhaFundhouse.png';
+import goldenpiLogo from '../../assets/logos/goldenpiLogo.png';
+import dittoLogo from '../../assets/logos/dittoLogo.png';
+
 function Universe() {
     return (
         <>
@@ -10,27 +17,27 @@ function Universe() {
                     </p>
 
                     <div className="col-4 p-3 mt-5">
-                        <img src="assets/smallcaseLogo.png" style={{ width: "50%" }} />
+                        <img src={smallcaseLogo} alt="Smallcase" style={{ width: "50%" }} />
                         <p className="text-small text-muted">Thematic investment platform</p>
                     </div>
                     <div className="col-4 p-3 mt-5">
-                        <img src="assets/streakLogo.png" style={{ width: "50%" }} />
+                        <img src={streakLogo} alt="Streak" style={{ width: "50%" }} />
                         <p className="text-small text-muted">Algo & Strategy platform</p>
                     </div>
                     <div className="col-4 p-3 mt-5">
-                        <img src="assets/sensibullLogo.svg" style={{ width: "50%" }} />
+                        <img src={sensibullLogo} alt="Sensibull" style={{ width: "50%" }} />
                         <p className="text-small text-muted">Options trading platform</p>
                     </div>
                     <div className="col-4 p-3 mt-5">
-                        <img src="assets/zerodhaFundhouse.png" style={{ width: "50%" }} />
+                        <img src={zerodhaFundhouse} alt="Zerodha Fund House" style={{ width: "50%" }} />
                         <p className="text-small text-muted">Asset management platform</p>
                     </div>
                     <div className="col-4 p-3 mt-5">
-                        <img src="assets/goldenpiLogo.png" style={{ width: "50%" }} />
+                        <img src={goldenpiLogo} alt="GoldenPi" style={{ width: "50%" }} />
                         <p className="text-small text-muted">Bonds Trading platform</p>
                     </div>
                     <div className="col-4 p-3 mt-5">
-                        <img src="assets/dittoLogo.png" style={{ width: "40%" }} />
+                        <img src={dittoLogo} alt="Ditto" style={{ width: "40%" }} />
                         <p className="text-small text-muted">Insurance</p>
                     </div>
                     <button

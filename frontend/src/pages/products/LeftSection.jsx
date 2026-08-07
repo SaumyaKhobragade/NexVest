@@ -1,3 +1,6 @@
+import googlePlayBadge from '../../assets/icons/googlePlayBadge.svg';
+import appstoreBadge from '../../assets/icons/appstoreBadge.svg';
+
 function LeftSection({
     imageURL,
     productName,
@@ -25,11 +28,12 @@ function LeftSection({
                         </div>
                         <div className="mt-3">
                             <a href={googlePlay}>
-                                <img src="assets/googlePlayBadge.svg" />
+                                <img src={googlePlayBadge} alt="Google Play" />
                             </a>
                             <a href={appStore}>
                                 <img
-                                    src="assets/appstoreBadge.svg"
+                                    src={appstoreBadge}
+                                    alt="App Store"
                                     style={{ marginLeft: "50px" }}
                                 />
                             </a>
